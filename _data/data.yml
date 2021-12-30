@@ -84,8 +84,8 @@ experience:
     company: Beamdata
     client: Samsung Electronics Canada - New product launch prediction
     details: ｜
-      - Worked closely with the advanced analytics team on the price forecasting for launched projects
-      - Designed an ETL pipeline to migrate and data from MySQL Server to Pandas Dataframe with SQLAlchemy
+      Worked closely with the advanced analytics team on the price forecasting for launched projects
+      Designed an ETL pipeline to migrate and data from MySQL Server to Pandas Dataframe with SQLAlchemy
        
 
 
