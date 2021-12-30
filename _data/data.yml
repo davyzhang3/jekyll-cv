@@ -76,13 +76,6 @@ skills:
       - Athena
 
 
-# Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
 
 # Experience
 experience:
@@ -90,7 +83,7 @@ experience:
     time: 2020-2021
     company: Beamdata
     client: Samsung Electronics Canada - New product launch prediction
-    details:
+    details: ｜
       - Worked closely with the advanced analytics team on the price forecasting for launched projects
       - Designed an ETL pipeline to migrate and data from MySQL Server to Pandas Dataframe with SQLAlchemy
        
