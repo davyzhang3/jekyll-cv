@@ -1,6 +1,6 @@
 name: Dawei Zhang
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
@@ -28,52 +28,35 @@ education:
 skills:
   - category: Programming
     skill: 
-      - Python
-      - SQL
-      - Bash
-      - Scala
+      - Python, SQL
+      - Bash, Scala
       - C
   - category: Big Data
     skill:
-      - Hadoop
-      - Spark
-      - AWS(EC2, S3, EMR, Athena, Kinesis, Lambda, QuickSight, Redshift, Hive, EKS, Glue, Data Pipeline)
-      - Apache Airflow
+      - Hadoop, Spark
+      - AWS, Apache Airflow
       - Kafka
   - category: DevOps
     skill:
-      - Docker
-      - Kubernetes 
-      - Prometheus
-      - Ansible
-      - Git
-      - Terraform
-      - Jenkins
-      - AWS (Code Pipeline, Code Deploy, Code Commit, Code Build)
+      - Docker, Kubernetes 
+      - Prometheus, Ansible
+      - Git, Terraform
+      - Jenkins, AWS 
   - category: Machine Learning
     skill:
-      - Scikit-learn
-      - Classification
-      - Clustering
-      - NLP
-      - Neural Network
-      - Regression
-      - Pandas
-      - Numpy
+      - Scikit-learn, Classification
+      - Clustering, NLP
+      - Neural Network, Regression
+      - Pandas, Numpy
   - category: Visualization
     skill:
-      - Tableau
-      - Plotly
-      - Matplotlib
-      - AWS Quicksight
+      - Tableau, Plotly
+      - Matplotlib, AWS Quicksight
   - Database Systems:
     skill:
-      - MySQL
-      - Postgres
-      - Redshift
-      - MongoDB
-      - Elasticsearch
-      - Athena
+      - MySQL, Postgres
+      - Redshift, MongoDB
+      - Elasticsearch, Athena
 
 
 
@@ -82,12 +65,47 @@ experience:
   - role: Data Engineer Consultant
     time: 2020-2021
     company: Beamdata
-    client: Samsung Electronics Canada - New product launch prediction
-    details: ｜
-      Worked closely with the advanced analytics team on the price forecasting for launched projects
-      Designed an ETL pipeline to migrate and data from MySQL Server to Pandas Dataframe with SQLAlchemy
-       
+    
+    details: |
+      client: Samsung Electronics Canada - New product launch prediction<br>
+      • Worked closely with the advanced analytics team on the price forecasting for launched projects<br>
+      • Designed an ETL pipeline to migrate and data from MySQL Server to Pandas Dataframe with SQLAlchemy<br>
+      • Predicted future value of number of stores opening using ARIMA in Jupyter Notebook. Then predicted future daily sales based on predicted features using Random Forest and XGBoost, minimized the Mean Absolute Percentage Error to 14%<br>
+      • Performed feature engineering by combining old features and extra pandemic feature and holiday flags for model preparation, providing more precise and reliable data sources for the next steps of sales prediction<br>
+      • Presented results and visualized data using Tableau and provided business insight<br>
+      • Took the responsibility as a scrum master to communicate with clients, summarized notes on Confluence, made plans and allocated tasks using JIRA <br>
+      • Followed Agile methodologies to update progress with teammates and manage schedules <br>
+      <br>
+      Client: Online Education Platform - Business Partnership Platform<br>
+      • Gathered and analyzed information on different online resources of potential partners in order to open new oversea branches for clients<br>
+      • Developed a scraper in order to gather potential customer profile from LinkedIn and Google using Selenium, SQLAlchemy, Pandas and Beautifulsoup and deployed it on an EC2 Server<br>
+      • Designed a ETL data pipeline to extract and migrate semi-structured data from S3 bucket to Neo4j and Postgres Database <br>
+      • Added a multithreading technique to ETL and scraping to increase their speed by 8 times<br>
+      • Automated the daily ETL process using Apache Airflow, successfully speeded up the data collection performance and improved efficiency<br>
+      <br>
+      Client: Online Education Platform - Cloud Platform Management<br>
+      • Managed user-level permissions for Apache Airflow, Jenkins and Linux systems<br>
+      Client: Online Education Platform - Web Application<br>
+      <br>
+      • Maintained Git workflows using version control (Source Code Management) <br>
+      • Developed and maintained CI/CD pipeline for code deployment on AWS EC2 server using Jenkins and Docker<br>
+      • Provisioned server and deployed features using Terraform<br>
 
+projects:
+  - title: Twitter Sentiment Analysis about Covid vaccine <br>
+    #link: #
+    details: |
+      In order to analyze people’s opinion about the Covid vaccine in 2020 Dec<br>
+      •	Gathered tweets about Covid vaccine with Twitter API using AWS Kinesis Firehose and saved data in S3 Bucket<br>
+      •	Built an NLP model pipeline in Databricks using PySpark to clean the raw data<br>
+      •	Made a dashboard to show the percentage of people who had faith in vaccine and what people talked about most in their tweets.<br>
+
+  - title: Uber Trips Visualization<br>
+    #link: #
+    details: |
+      A project for visualize Uber trips and analyze how all kinds of events impact the Uber business<br>
+      •	Visualized density map of Uber trips in New York City in 2014 April-July <br>
+      •	Described the weather event in 4 months using bar chart and line chart<br>
 
 
 
